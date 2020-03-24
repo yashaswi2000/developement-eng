@@ -1,0 +1,13 @@
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    border: 1px solid grey;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+li:hover {
+    box-shadow: 2px 2px grey;
+}

@@ -1,0 +1,31 @@
+  
+@import "https://www.w3schools.com/w3css/4/w3.css";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+html {
+  scroll-behavior: smooth;
+}
+
+.add_Post_form {
+  padding: 15px;
+  background: #fff;
+  color: #000;
+  /* box-shadow: 0 0 11px 3px rgba(205, 161, 44, 0.65); */
+  padding: 10px 15px;
+  margin: 25px 0;
+  border-radius: 10px;
+}
+.add_Post_form input {
+  margin: 10px 0;
+}
+.add_Post_form textarea {
+  max-height: max-content;
+  max-width: 100%;
+  min-height: 200px;
+  min-width: 100%;
+}
+.add_Post_form button {
+  display: block;
+  margin-left: auto;
+  margin-top: 10px;
+}
