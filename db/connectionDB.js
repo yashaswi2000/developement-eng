@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 // mongodb://<dbuser>:<dbpassword>@ds217678.mlab.com:17678/oca-blog
 //
 module.exports = function() {
-  mongoose.connect("mongodb://localhost:27017/hello", { useNewUrlParser: true });
+  mongoose.connect("mongodb+srv://ram:ram@1758@mernpractice-s4kn8.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
   const db = mongoose.connection;
 
   db.on("error", function() {
